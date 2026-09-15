@@ -50,6 +50,11 @@ body {
   font-size: 18px;
 }
 
+.placar {
+  font-size: 14px;
+  color: #555555;
+}
+
 .divisor {
   width: 1px;
   background-color: #1a1a1a;

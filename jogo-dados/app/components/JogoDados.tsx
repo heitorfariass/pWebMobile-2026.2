@@ -24,6 +24,8 @@ export default function JogoDados() {
   function jogarJogador1() {
     const novosDados: [number, number] = [rolarDado(), rolarDado()];
     setDadosJogador1(novosDados);
+    setDadosJogador2([null, null]);
+    setMensagem("");
     setTurno("jogador2");
   }
 
@@ -61,8 +63,6 @@ export default function JogoDados() {
       }
     } else {
       setRodada(rodada + 1);
-      setDadosJogador1([null, null]);
-      setDadosJogador2([null, null]);
       setTurno("jogador1");
     }
   }
@@ -86,6 +86,7 @@ export default function JogoDados() {
       <div className="jogadores">
         <div className="coluna">
           <h2>Jogador 1</h2>
+          <p className="placar">Vitórias: {vitoriasJogador1}</p>
           <div className="dados-linha">
             <Dado valor={dadosJogador1[0]} />
             <Dado valor={dadosJogador1[1]} />
@@ -102,6 +103,7 @@ export default function JogoDados() {
 
         <div className="coluna">
           <h2>Jogador 2</h2>
+          <p className="placar">Vitórias: {vitoriasJogador2}</p>
           <div className="dados-linha">
             <Dado valor={dadosJogador2[0]} />
             <Dado valor={dadosJogador2[1]} />
