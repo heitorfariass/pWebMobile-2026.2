@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "pwm-2026.2-expo-01",
-    "slug": "pwm-2026.2-expo-01",
+    "slug": "pwm-2026-2-expo-01",
     "owner": "mariaclararibeiros-team",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -38,6 +38,18 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a664fcf8-505a-4408-bfeb-4e16e34c10cf"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a664fcf8-505a-4408-bfeb-4e16e34c10cf"
     }
   }
 }
