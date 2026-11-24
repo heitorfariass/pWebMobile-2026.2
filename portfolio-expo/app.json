@@ -35,7 +35,16 @@
         "asyncRoutes": {
           "web": true
         }
+      },
+      "eas": {
+        "projectId": "c9320039-830e-41d1-9cd7-8822ed476e72"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c9320039-830e-41d1-9cd7-8822ed476e72"
     }
   }
 }
