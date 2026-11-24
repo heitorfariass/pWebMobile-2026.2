@@ -2,6 +2,7 @@
   "expo": {
     "name": "Heitor Farias | Portfólio",
     "slug": "portfolio-reactnative-expo",
+    "owner": "mariaclararibeiros-team",
     "scheme": "portfolio",
     "version": "1.0.0",
     "orientation": "portrait",
