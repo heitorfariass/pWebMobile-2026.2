@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Heitor Farias | Portfólio",
-    "slug": "portfolio-reactnative-expo",
+    "slug": "portfolio-expo-heitor",
     "owner": "mariaclararibeiros-team",
     "scheme": "portfolio",
     "version": "1.0.0",
@@ -14,14 +14,31 @@
       "resizeMode": "contain",
       "backgroundColor": "#0a0e0a"
     },
-    "ios": { "supportsTablet": true },
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#0a0e0a",
         "foregroundImage": "./assets/android-icon-foreground.png"
       }
     },
-    "web": { "bundler": "metro", "favicon": "./assets/favicon.png" },
-    "plugins": ["expo-router"]
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "c8ced99a-1f65-40fc-b1eb-9cc2c42a43d3"
+      }
+    }
   }
 }
